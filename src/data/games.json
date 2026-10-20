@@ -1,0 +1,46 @@
+[
+  {
+    "id": "hollow-knight",
+    "slug": "hollow-knight",
+    "title": "Hollow Knight",
+    "genre": "Metroidvania",
+    "platforms": ["PC", "Nintendo Switch", "PlayStation"],
+    "releaseYear": 2017,
+    "score": 9.2,
+    "featured": true,
+    "cover": "/images/games/hollow-knight.webp",
+    "coverAlt": "Hlavní ilustrace hry Hollow Knight",
+    "shortDescription": "Atmosférická výprava do zapomenutého podzemního království.",
+    "pros": [
+      "Výborný průzkum světa",
+      "Atmosférická hudba",
+      "Precizní soubojový systém"
+    ],
+    "cons": [
+      "Náročnější orientace v mapě"
+    ],
+    "review": "Hra nabízí rozsáhlý svět, propracované souboje a výraznou atmosféru."
+  },
+  {
+    "id": "stardew-valley",
+    "slug": "stardew-valley",
+    "title": "Stardew Valley",
+    "genre": "Simulace",
+    "platforms": ["PC", "Nintendo Switch", "PlayStation", "Xbox"],
+    "releaseYear": 2016,
+    "score": 9.0,
+    "featured": false,
+    "cover": "/images/games/stardew-valley.webp",
+    "coverAlt": "Ilustrace farmářského světa hry Stardew Valley",
+    "shortDescription": "Odpočinková simulace života na vlastní farmě.",
+    "pros": [
+      "Velké množství aktivit",
+      "Příjemná atmosféra",
+      "Dlouhá herní životnost"
+    ],
+    "cons": [
+      "Pomalejší začátek"
+    ],
+    "review": "Nenápadná hra, která dokáže nabídnout stovky hodin pohodového hraní."
+  }
+]

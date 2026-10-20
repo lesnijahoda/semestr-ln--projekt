@@ -1,0 +1,26 @@
+[
+  {
+    "id": "indie-tipy",
+    "slug": "indie-hry-ktere-stoji-za-to",
+    "title": "5 indie her, které stojí za tvůj čas",
+    "category": "Doporučení",
+    "author": "Redakce LevelUp",
+    "publishedAt": "2026-11-10",
+    "cover": "/images/articles/indie-games.webp",
+    "coverAlt": "Ilustrace nezávislých videoher",
+    "excerpt": "Výběr menších her, které dokážou překvapit nápady i zpracováním.",
+    "relatedGameSlugs": [
+      "hollow-knight",
+      "stardew-valley"
+    ],
+    "content": [
+      {
+        "heading": "Proč dát šanci indie hrám",
+        "paragraphs": [
+          "Nezávislé hry často experimentují s herními mechanismy a vyprávěním.",
+          "I menší projekt může nabídnout nezapomenutelný zážitek."
+        ]
+      }
+    ]
+  }
+]
