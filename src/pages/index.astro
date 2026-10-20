@@ -1,16 +1,105 @@
+
 ---
+import MainLayout from "../layouts/MainLayout.astro";
+
+const featuredGames = [
+  {
+    title: "Eclipse Protocol",
+    genre: "Akční RPG",
+    rating: "9.2",
+    description: "Temné sci-fi RPG, ve kterém každé rozhodnutí mění průběh příběhu."
+  },
+  {
+    title: "Kingdoms of Ash",
+    genre: "Fantasy",
+    rating: "8.7",
+    description: "Vydej se do rozděleného království a rozhodni o jeho budoucnosti."
+  },
+  {
+    title: "Velocity X",
+    genre: "Závodní",
+    rating: "8.5",
+    description: "Rychlé závody, upravená auta a souboje o první místo."
+  }
+];
 ---
 
-<html lang="en">
-	<head>
-		<meta charset="utf-8" />
-		<link rel="icon" type="image/svg+xml" href="/favicon.svg" />
-		<link rel="icon" href="/favicon.ico" />
-		<meta name="viewport" content="width=device-width" />
-		<meta name="generator" content={Astro.generator} />
-		<title>Astro</title>
-	</head>
-	<body>
-		<h1>Astro</h1>
-	</body>
-</html>
+<MainLayout
+  title="LevelUp — Herní magazín"
+  description="Herní recenze, novinky a doporučení pro každého hráče."
+>
+  <header class="site-header">
+    <a class="site-logo" href="/">Level<span>Up</span></a>
+
+    <nav class="main-nav" aria-label="Hlavní navigace">
+      <a href="/">Domů</a>
+      <a href="/hry/">Hry</a>
+      <a href="/clanky/">Články</a>
+      <a href="/o-projektu/">O projektu</a>
+    </nav>
+  </header>
+
+  <main>
+    <section class="hero">
+      <p class="hero__eyebrow">TVŮJ SVĚT. TVOJE HRY.</p>
+      <h1>Objev hry, které <span>stojí za to.</span></h1>
+      <p class="hero__description">
+        Nezávislé recenze, herní novinky a doporučení pro další dobrodružství.
+      </p>
+
+      <a class="hero__button" href="/hry/">Prozkoumat hry</a>
+    </section>
+
+    <section class="featured-games" aria-labelledby="featured-title">
+      <div class="section-heading">
+        <div>
+          <p class="section-heading__eyebrow">NÁŠ VÝBĚR</p>
+          <h2 id="featured-title">Hry, které doporučujeme</h2>
+        </div>
+
+        <a href="/hry/">Všechny hry →</a>
+      </div>
+
+      <div class="game-grid">
+        {featuredGames.map((game) => (
+          <article class="game-card">
+            <div class="game-card__visual" aria-hidden="true">
+              <span>LEVELUP</span>
+            </div>
+
+            <div class="game-card__content">
+              <p class="game-card__genre">{game.genre}</p>
+              <h3>{game.title}</h3>
+              <p class="game-card__description">{game.description}</p>
+
+              <div class="game-card__footer">
+                <span class="game-card__rating">
+                  ★ {game.rating}/10
+                </span>
+                <a href="/hry/">Detail hry</a>
+              </div>
+            </div>
+          </article>
+        ))}
+      </div>
+    </section>
+
+    <section class="about-preview">
+      <p class="section-heading__eyebrow">VÍTEJ NA LEVELUP</p>
+      <h2>Hraní je víc než jen zábava.</h2>
+      <p>
+        Pomáháme ti vybírat hry, které stojí za tvůj čas — od velkých
+        dobrodružství až po malé nezávislé projekty.
+      </p>
+      <a href="/clanky/">Přečíst herní články →</a>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <a class="site-logo" href="/">Level<span>Up</span></a>
+    <p>© 2026 LevelUp — školní projekt herního magazínu.</p>
+  </footer>
+</MainLayout>
+
+
+
