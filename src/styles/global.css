@@ -1,0 +1,99 @@
+
+@layer reset, tokens, base, components, utilities;
+
+/* 1. RESET — sjednocení výchozích stylů prohlížeče */
+@layer reset {
+  *,
+  *::before,
+  *::after {
+    box-sizing: border-box;
+  }
+
+  body,
+  h1,
+  h2,
+  h3,
+  p {
+    margin: 0;
+  }
+
+  img {
+    display: block;
+    max-width: 100%;
+  }
+}
+
+/* 2. TOKENS — společné hodnoty designu */
+@layer tokens {
+  :root {
+    color-scheme: dark;
+
+    /* Barvy */
+    --color-bg: #101116;
+    --color-surface: #191b24;
+    --color-surface-hover: #242735;
+    --color-accent: #8b5cf6;
+    --color-accent-light: #c4b5fd;
+    --color-text: #f4f4f7;
+    --color-text-muted: #b7b9c7;
+    --color-border: #343644;
+
+    /* Písmo */
+    --font-body: Arial, Helvetica, sans-serif;
+    --font-heading: Arial, Helvetica, sans-serif;
+
+    /* Mezery */
+    --space-1: 0.25rem;
+    --space-2: 0.5rem;
+    --space-3: 0.75rem;
+    --space-4: 1rem;
+    --space-6: 1.5rem;
+    --space-8: 2rem;
+    --space-12: 3rem;
+
+    /* Zaoblení rohů */
+    --radius-sm: 0.375rem;
+    --radius-md: 0.75rem;
+    --radius-lg: 1rem;
+
+    /* Maximální šířka obsahu */
+    --content-width: 72rem;
+  }
+}
+
+/* 3. BASE — základní styly HTML */
+@layer base {
+  html {
+    font-family: var(--font-body);
+    background: var(--color-bg);
+    color: var(--color-text);
+    line-height: 1.6;
+  }
+
+  body {
+    min-width: 320px;
+  }
+
+  a {
+    color: inherit;
+  }
+
+  :focus-visible {
+    outline: 3px solid var(--color-accent-light);
+    outline-offset: 4px;
+  }
+
+  @media (prefers-reduced-motion: reduce) {
+    *,
+    *::before,
+    *::after {
+      scroll-behavior: auto !important;
+      animation-duration: 0.01ms !important;
+      transition-duration: 0.01ms !important;
+    }
+  }
+}
+
+/* 4. COMPONENTS — styly jednotlivých komponent */
+
+/* 5. UTILITIES — pomocné třídy */
