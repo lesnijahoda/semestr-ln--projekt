@@ -1,27 +1,9 @@
 
 ---
 import MainLayout from "../layouts/MainLayout.astro";
+import games from "../data/games.json";
+import GameCard from "../components/GameCard.astro";
 
-const featuredGames = [
-  {
-    title: "Eclipse Protocol",
-    genre: "Akční RPG",
-    rating: "9.2",
-    description: "Temné sci-fi RPG, ve kterém každé rozhodnutí mění průběh příběhu."
-  },
-  {
-    title: "Kingdoms of Ash",
-    genre: "Fantasy",
-    rating: "8.7",
-    description: "Vydej se do rozděleného království a rozhodni o jeho budoucnosti."
-  },
-  {
-    title: "Velocity X",
-    genre: "Závodní",
-    rating: "8.5",
-    description: "Rychlé závody, upravená auta a souboje o první místo."
-  }
-];
 ---
 
 <MainLayout
@@ -60,28 +42,13 @@ const featuredGames = [
         <a href="/hry/">Všechny hry →</a>
       </div>
 
+      
       <div class="game-grid">
-        {featuredGames.map((game) => (
-          <article class="game-card">
-            <div class="game-card__visual" aria-hidden="true">
-              <span>LEVELUP</span>
-            </div>
-
-            <div class="game-card__content">
-              <p class="game-card__genre">{game.genre}</p>
-              <h3>{game.title}</h3>
-              <p class="game-card__description">{game.description}</p>
-
-              <div class="game-card__footer">
-                <span class="game-card__rating">
-                  ★ {game.rating}/10
-                </span>
-                <a href="/hry/">Detail hry</a>
-              </div>
-            </div>
-          </article>
+        {games.map((game) => (
+          <GameCard game={game} />
         ))}
       </div>
+
     </section>
 
     <section class="about-preview">
