@@ -1,0 +1,45 @@
+
+---
+import MainLayout from "../../layouts/MainLayout.astro";
+import games from "../../data/games.json";
+import GameCard from "../../components/GameCard.astro";
+---
+
+<MainLayout
+  title="Hry | LevelUp"
+  description="Prozkoumej katalog her na magazínu LevelUp."
+>
+  <header class="site-header">
+    <a class="site-logo" href="/">Level<span>Up</span></a>
+
+    <nav class="main-nav" aria-label="Hlavní navigace">
+      <a href="/">Domů</a>
+      <a href="/hry/" aria-current="page">Hry</a>
+      <a href="/clanky/">Články</a>
+      <a href="/o-projektu/">O projektu</a>
+    </nav>
+  </header>
+
+  <main>
+    <section class="featured-games" aria-labelledby="games-title">
+      <div class="section-heading">
+        <div>
+          <p class="section-heading__eyebrow">KATALOG</p>
+          <h1 id="games-title">Objev svou další hru</h1>
+        </div>
+        <p class="text-muted">Počet her: {games.length}</p>
+      </div>
+
+      <div class="game-grid">
+        {games.map((game) => (
+          <GameCard game={game} />
+        ))}
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <a class="site-logo" href="/">Level<span>Up</span></a>
+    <p>© 2026 LevelUp — školní projekt herního magazínu.</p>
+  </footer>
+</MainLayout>
