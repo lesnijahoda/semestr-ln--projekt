@@ -1,0 +1,25 @@
+
+---
+const { currentPage = "" } = Astro.props;
+---
+
+<header class="site-header">
+  <a class="site-logo" href="/" aria-label="LevelUp — úvodní stránka">
+    Level<span>Up</span>
+  </a>
+
+  <nav class="main-nav" aria-label="Hlavní navigace">
+    <a href="/" aria-current={currentPage === "home" ? "page" : undefined}>
+      Domů
+    </a>
+    <a href="/hry/" aria-current={currentPage === "games" ? "page" : undefined}>
+      Hry
+    </a>
+    <a href="/clanky/" aria-current={currentPage === "articles" ? "page" : undefined}>
+      Články
+    </a>
+    <a href="/o-projektu/" aria-current={currentPage === "about" ? "page" : undefined}>
+      O projektu
+    </a>
+  </nav>
+</header>

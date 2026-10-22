@@ -8,18 +8,9 @@ import GameCard from "../../components/GameCard.astro";
 <MainLayout
   title="Hry | LevelUp"
   description="Prozkoumej katalog her na magazínu LevelUp."
+  currentPage="games";
 >
-  <header class="site-header">
-    <a class="site-logo" href="/">Level<span>Up</span></a>
-
-    <nav class="main-nav" aria-label="Hlavní navigace">
-      <a href="/">Domů</a>
-      <a href="/hry/" aria-current="page">Hry</a>
-      <a href="/clanky/">Články</a>
-      <a href="/o-projektu/">O projektu</a>
-    </nav>
-  </header>
-
+  
   <main>
     <section class="featured-games" aria-labelledby="games-title">
       <div class="section-heading">
@@ -38,8 +29,4 @@ import GameCard from "../../components/GameCard.astro";
     </section>
   </main>
 
-  <footer class="site-footer">
-    <a class="site-logo" href="/">Level<span>Up</span></a>
-    <p>© 2026 LevelUp — školní projekt herního magazínu.</p>
-  </footer>
 </MainLayout>

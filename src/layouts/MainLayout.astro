@@ -1,10 +1,13 @@
 
 ---
 import "../styles/global.css";
+import SiteHeader from "../components/SiteHeader.astro";
+import SiteFooter from "../components/SiteFooter.astro";
 
 const {
   title = "LevelUp — Herní magazín",
-  description = "Recenze her, herní novinky a doporučení ze světa gamingu."
+  description = "Recenze her, herní novinky a doporučení ze světa gamingu.",
+  currentPage = ""
 } = Astro.props;
 ---
 
@@ -18,6 +21,8 @@ const {
     <title>{title}</title>
   </head>
   <body>
+    <SiteHeader currentPage={currentPage} />
     <slot />
+    <SiteFooter />
   </body>
 </html>
