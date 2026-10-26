@@ -1,0 +1,9 @@
+
+---
+const { rating, size = "default" } = Astro.props;
+---
+
+<span class:list={["rating-badge", `rating-badge--${size}`]}>
+  <span class="rating-badge__icon" aria-hidden="true">★</span>
+  <span>{rating}/10</span>
+</span>

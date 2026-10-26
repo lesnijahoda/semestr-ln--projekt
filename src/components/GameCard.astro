@@ -1,5 +1,6 @@
 
 ---
+import RatingBadge from "./RatingBadge.astro";
 const { game } = Astro.props;
 ---
 
@@ -18,9 +19,7 @@ const { game } = Astro.props;
     </p>
 
     <div class="game-card__footer">
-      <span class="game-card__rating">
-        ★ {game.rating}/10
-      </span>
+     <RatingBadge rating={game.rating} />
 
       <a href={`/hry/${game.slug}/`}>
         Detail hry
