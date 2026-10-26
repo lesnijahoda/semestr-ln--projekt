@@ -20,39 +20,43 @@ const { game } = Astro.props;
   currentPage="games";
 >
   <main>
-    <article class="game-detail">
-      <a class="game-detail__back" href="/hry/">
-        ← Zpět do katalogu
-      </a>
+    
+<article class="game-detail">
+  <a class="game-detail__back" href="/hry/">
+    ← Zpět do katalogu
+  </a>
 
-      <div class="game-detail__visual" aria-hidden="true">
-        <img
-          class="game-detail__image"
-          src={game.image}
-          alt={`Obrázek ze hry ${game.title}`}
-        />
-      </div>
+  <div class="game-detail__layout">
+    <div class="game-detail__visual">
+      <img
+        class="game-detail__image"
+        src={game.image}
+        alt={`Obrázek ze hry ${game.title}`}
+      />
+    </div>
 
-      <div class="game-detail__content">
-        <p class="section-heading__eyebrow">{game.genre}</p>
+    <div class="game-detail__content">
+      <p class="section-heading__eyebrow">{game.genre}</p>
 
-        <h1>{game.title}</h1>
+      <h1>{game.title}</h1>
 
-        <p class="game-detail__rating">
-          ★ {game.rating}/10
-        </p>
+      <p class="game-detail__rating">
+        ★ {game.rating}/10
+      </p>
 
-        <p class="game-detail__description">
-          {game.description}
-        </p>
+      <p class="game-detail__description">
+        {game.description}
+      </p>
 
-        <h2>O hře</h2>
-        <p>
-          {game.description} Tato stránka představuje základní informace
-          o hře a slouží jako ukázka detailu herního katalogu LevelUp.
-        </p>
-      </div>
-    </article>
+      <h2>O hře</h2>
+      <p>
+        {game.description} Tato stránka představuje základní informace
+        o hře a slouží jako ukázka detailu herního katalogu LevelUp.
+      </p>
+    </div>
+  </div>
+</article>
+
   </main>
   
 </MainLayout>
