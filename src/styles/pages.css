@@ -55,3 +55,12 @@
   .game-detail__content h2 + p {
     color: var(--color-text-muted);
   }
+  .game-detail__image {
+  display: block;
+  width: 100%;
+  height: auto;
+  max-height: none;
+  object-fit: contain;
+  border-radius: 1rem;
+  margin: 0;
+}

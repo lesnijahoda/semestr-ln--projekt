@@ -26,7 +26,11 @@ const { game } = Astro.props;
       </a>
 
       <div class="game-detail__visual" aria-hidden="true">
-        <span>LEVELUP</span>
+        <img
+          class="game-detail__image"
+          src={game.image}
+          alt={`Obrázek ze hry ${game.title}`}
+        />
       </div>
 
       <div class="game-detail__content">
