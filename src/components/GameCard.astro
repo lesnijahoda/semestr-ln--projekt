@@ -1,16 +1,23 @@
 
 ---
 import RatingBadge from "./RatingBadge.astro";
+import GenreTag from "./GenreTag.astro";
 const { game } = Astro.props;
 ---
 
 <article class="game-card">
   <div class="game-card__visual" aria-hidden="true">
-    <span>LEVELUP</span>
+    
+    <img
+    src={game.image}
+    alt={`Obrázek ze hry ${game.title}`}
+    loading="lazy"
+    /> 
+    
   </div>
 
   <div class="game-card__content">
-    <p class="game-card__genre">{game.genre}</p>
+    <GenreTag genre={game.genre} />
 
     <h3>{game.title}</h3>
 

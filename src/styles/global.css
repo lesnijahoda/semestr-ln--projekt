@@ -249,7 +249,7 @@
     border-color: var(--color-accent);
     transform: translateY(-3px);
   }
-
+  /*
   .game-card__visual {
     min-height: 9rem;
     display: grid;
@@ -268,7 +268,19 @@
     font-size: 1.4rem;
     font-weight: 900;
     letter-spacing: 0.2em;
+  }*/
+  
+  .game-card__visual {
+    aspect-ratio: 16 / 9;
+    overflow: hidden;
+    background: var(--color-surface-hover);
   }
+
+  .game-card__visual img {
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+  } 
 
   .game-card__content {
     padding: var(--space-4);
@@ -369,6 +381,29 @@
 .rating-badge--large {
   padding: var(--space-2) var(--space-3);
   font-size: 1.125rem;
+}
+
+.genre-tag {
+  display: inline-flex;
+  align-items: center;
+  width: fit-content;
+  padding: var(--space-1) var(--space-2);
+  border: 1px solid rgb(139 92 246 / 35%);
+  border-radius: 999px;
+  background: rgb(139 92 246 / 12%);
+  color: var(--color-accent-light);
+  font-size: 0.75rem;
+  font-weight: 700;
+}
+
+.genre-tag--default {
+  text-transform: none;
+}
+
+.genre-tag--featured {
+  background: var(--color-accent);
+  border-color: var(--color-accent);
+  color: #fff;
 }
 
 }

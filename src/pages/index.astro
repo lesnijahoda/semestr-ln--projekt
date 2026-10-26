@@ -35,9 +35,10 @@ import GameCard from "../components/GameCard.astro";
 
       
       <div class="game-grid">
-        {games.map((game) => (
-          <GameCard game={game} />
-        ))}
+        {[...games]
+        .sort((a, b) => b.rating - a.rating)
+        .slice(0, 3)
+        .map((game) => <GameCard game={game} />)}
       </div>
 
     </section>

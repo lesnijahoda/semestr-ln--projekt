@@ -1,24 +1,203 @@
-
 [
   {
-    "slug": "eclipse-protocol",
-    "title": "Eclipse Protocol",
+    "slug": "kingdom-come-deliverance-2",
+    "title": "Kingdom Come: Deliverance II",
     "genre": "Akční RPG",
     "rating": 9.2,
-    "description": "Temné sci-fi RPG, ve kterém každé rozhodnutí mění průběh příběhu."
+    "description": "Pokračování historického RPG zavádí Jindřicha do dalšího dobrodružství ve středověkých Čechách.",
+    "image": "/images/games/kingdom-come-deliverance-2.jpeg"
   },
   {
-    "slug": "kingdoms-of-ash",
-    "title": "Kingdoms of Ash",
-    "genre": "Fantasy",
-    "rating": 8.7,
-    "description": "Vydej se do rozděleného království a rozhodni o jeho budoucnosti."
+    "slug": "monster-hunter-wilds",
+    "title": "Monster Hunter Wilds",
+    "genre": "Akční RPG",
+    "rating": 8.8,
+    "description": "Vydej se do nebezpečné divočiny, lov obří monstra a vyráběj vybavení z ukořistěných surovin.",
+    "image": "/images/games/monster-hunter-wilds.jpeg"
   },
   {
-    "slug": "velocity-x",
-    "title": "Velocity X",
-    "genre": "Závodní",
+    "slug": "clair-obscur-expedition-33",
+    "title": "Clair Obscur: Expedition 33",
+    "genre": "Tahové RPG",
+    "rating": 9.5,
+    "description": "Temná fantasy výprava s originálním soubojovým systémem a příběhem o boji proti času.",
+    "image": "/images/games/clair-obscur-expedition-33.jpeg"
+  },
+  {
+    "slug": "doom-the-dark-ages",
+    "title": "DOOM: The Dark Ages",
+    "genre": "FPS",
+    "rating": 9.0,
+    "description": "Staň se Doom Slayerem v brutální akční řežbě, která kombinuje futuristické zbraně se středověkou tematikou.",
+    "image": "/images/games/doom-the-dark-ages.jpeg"
+  },
+  {
+    "slug": "assassins-creed-shadows",
+    "title": "Assassin's Creed Shadows",
+    "genre": "Akční adventura",
+    "rating": 8.4,
+    "description": "Prozkoumej feudální Japonsko a zažij příběh dvou hrdinů s odlišným stylem boje a plížení.",
+    "image": "/images/games/assassins-creed-shadows.jpeg"
+  },
+  {
+    "slug": "ghost-of-yotei",
+    "title": "Ghost of Yōtei",
+    "genre": "Akční adventura",
+    "rating": 8.9,
+    "description": "Vydej se do japonské krajiny na cestu za pomstou plnou soubojů, průzkumu a filmových momentů.",
+    "image": "/images/games/ghost-of-yotei.jpeg"
+  },
+  {
+    "slug": "death-stranding-2",
+    "title": "Death Stranding 2: On the Beach",
+    "genre": "Akční adventura",
+    "rating": 9.0,
+    "description": "V pokračování netradičního dobrodružství se Sam vydává na další cestu světem, který se snaží znovu spojit.",
+    "image": "/images/games/death-stranding-2.jpeg"
+  },
+  {
+    "slug": "hades-2",
+    "title": "Hades II",
+    "genre": "Roguelike",
+    "rating": 9.3,
+    "description": "Bojuj s nepřáteli v rychlých soubojích, využívej magii a opakovaně se vydávej do mytologického podsvětí.",
+    "image": "/images/games/hades-2.jpeg"
+  },
+  {
+    "slug": "silent-hill-2",
+    "title": "Silent Hill 2",
+    "genre": "Psychologický horor",
+    "rating": 9.0,
+    "description": "Vydej se do mlhou zahaleného města, kde se psychologický horor prolíná s tajemným příběhem.",
+    "image": "/images/games/silent-hill-2.jpeg"
+  },
+  {
+    "slug": "ea-sports-fc-25",
+    "title": "EA SPORTS FC 25",
+    "genre": "Sportovní",
+    "rating": 8.2,
+    "description": "Sestav svůj tým, soutěž v různých herních režimech a vyzkoušej nové možnosti fotbalové taktiky.",
+    "image": "/images/games/ea-sports-fc-25.jpeg"
+  },
+  {
+    "slug": "ghost-of-tsushima",
+    "title": "Ghost of Tsushima",
+    "genre": "Akční adventura",
+    "rating": 9.3,
+    "description": "Staň se samurajem Jinem Sakaim, braň ostrov Cušima před mongolskou invazí a rozhodni se, co pro tebe znamená čest.",
+    "image": "/images/games/ghost-of-tsushima.jpeg"
+  },
+  {
+    "slug": "doom-2016",
+    "title": "DOOM (2016)",
+    "genre": "FPS",
+    "rating": 9.0,
+    "description": "Probojuj se hordami démonů na Marsu v rychlé akční střílečce plné brutálních soubojů.",
+    "image": "/images/games/doom-2016.jpeg"
+  },
+  {
+    "slug": "doom-eternal",
+    "title": "DOOM Eternal",
+    "genre": "FPS",
+    "rating": 9.2,
+    "description": "Pokračuj v boji proti pekelným armádám. Využívej zbraně, rychlý pohyb a agresivní styl boje.",
+    "image": "/images/games/doom-eternal.jpeg"
+  },
+  {
+    "slug": "god-of-war-2005",
+    "title": "God of War",
+    "genre": "Akční adventura",
+    "rating": 8.9,
+    "description": "Vydej se s Kratem na cestu řeckou mytologií, kde ho žene touha po pomstě bohům Olympu.",
+    "image": "/images/games/god-of-war-2005.jpeg"
+  },
+  {
+    "slug": "god-of-war-2",
+    "title": "God of War II",
+    "genre": "Akční adventura",
+    "rating": 9.2,
+    "description": "Kratos se postaví samotnému Diovi a pokusí se změnit svůj osud s pomocí Titánů.",
+    "image": "/images/games/god-of-war-2.jpeg"
+  },
+  {
+    "slug": "god-of-war-chains-of-olympus",
+    "title": "God of War: Chains of Olympus",
+    "genre": "Akční adventura",
     "rating": 8.5,
-    "description": "Rychlé závody, upravená auta a souboje o první místo."
+    "description": "Předehra původní série, ve které Kratos plní úkoly bohů a čelí hrozbě pro celý svět.",
+    "image": "/images/games/god-of-war-chains-of-olympus.jpeg"
+  },
+  {
+    "slug": "god-of-war-3",
+    "title": "God of War III",
+    "genre": "Akční adventura",
+    "rating": 9.3,
+    "description": "Kratos zahajuje ničivý útok na Olymp a střetává se s mocnými bohy řeckého panteonu.",
+    "image": "/images/games/god-of-war-3.jpeg"
+  },
+  {
+    "slug": "god-of-war-ghost-of-sparta",
+    "title": "God of War: Ghost of Sparta",
+    "genre": "Akční adventura",
+    "rating": 8.6,
+    "description": "Kratos odhaluje tajemství své minulosti a vydává se hledat svého bratra Deima.",
+    "image": "/images/games/god-of-war-ghost-of-sparta.jpeg"
+  },
+  {
+    "slug": "god-of-war-ascension",
+    "title": "God of War: Ascension",
+    "genre": "Akční adventura",
+    "rating": 8.2,
+    "description": "Příběh z Kratosovy minulosti sleduje jeho boj za svobodu a střet s bájnými Fúriemi.",
+    "image": "/images/games/god-of-war-ascension.jpeg"
+  },
+  {
+    "slug": "god-of-war-2018",
+    "title": "God of War (2018)",
+    "genre": "Akční RPG",
+    "rating": 9.5,
+    "description": "Kratos žije v severském světě se svým synem Atreem. Společně se vydávají na nebezpečnou cestu.",
+    "image": "/images/games/god-of-war-2018.jpeg"
+  },
+  {
+    "slug": "god-of-war-ragnarok",
+    "title": "God of War Ragnarök",
+    "genre": "Akční RPG",
+    "rating": 9.4,
+    "description": "Kratos a Atreus čelí blížícímu se Ragnaröku a rozhodují o osudu devíti světů.",
+    "image": "/images/games/god-of-war-ragnarok.jpeg"
+  },
+  {
+    "slug": "kingdom-come-deliverance",
+    "title": "Kingdom Come: Deliverance",
+    "genre": "Akční RPG",
+    "rating": 8.8,
+    "description": "Prožij příběh Jindřicha ze Skalice ve středověkých Čechách, kde rozhodují souboje, příprava i tvoje volby.",
+    "image": "/images/games/kingdom-come-deliverance.jpeg"
+  },
+  {
+    "slug": "assassins-creed-unity",
+    "title": "Assassin's Creed Unity",
+    "genre": "Akční adventura",
+    "rating": 8.3,
+    "description": "Prozkoumej Paříž během Velké francouzské revoluce a jako Arno se zapoj do konfliktu asasínů a templářů.",
+    "image": "/images/games/assassins-creed-unity.jpeg"
+  },
+  {
+    "slug": "assassins-creed-black-flag",
+    "title": "Assassin's Creed IV: Black Flag",
+    "genre": "Akční adventura",
+    "rating": 9.0,
+    "description": "Staň se pirátem Edwardem Kenwayem, prozkoumávej Karibik, vylepšuj loď a hledej poklady.",
+    "image": "/images/games/assassins-creed-black-flag.jpeg"
+  },
+  {
+    "slug": "assassins-creed-origins",
+    "title": "Assassin's Creed Origins",
+    "genre": "Akční RPG",
+    "rating": 8.8,
+    "description": "Vydej se do starověkého Egypta a sleduj příběh Bayeka při zrodu bratrstva asasínů.",
+    "image": "/images/games/assassins-creed-origins.jpeg"
   }
 ]
+

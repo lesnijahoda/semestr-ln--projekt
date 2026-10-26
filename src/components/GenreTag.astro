@@ -1,0 +1,8 @@
+
+---
+const { genre, variant = "default" } = Astro.props;
+---
+
+<span class:list={["genre-tag", `genre-tag--${variant}`]}>
+  {genre}
+</span>
