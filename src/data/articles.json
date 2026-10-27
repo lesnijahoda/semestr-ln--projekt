@@ -1,26 +1,43 @@
+
 [
   {
-    "id": "indie-tipy",
-    "slug": "indie-hry-ktere-stoji-za-to",
-    "title": "5 indie her, které stojí za tvůj čas",
-    "category": "Doporučení",
+    "slug": "kingdom-come-deliverance-2-recenze",
+    "title": "Kingdom Come: Deliverance II – recenze",
+    "excerpt": "Vrátili jsme se do středověkých Čech. Jak se povedlo pokračování českého RPG od Warhorse Studios?",
+    "image": "/images/articles/kingdom-come-2.jpg",
+    "category": "Recenze",
     "author": "Redakce LevelUp",
-    "publishedAt": "2026-11-10",
-    "cover": "/images/articles/indie-games.webp",
-    "coverAlt": "Ilustrace nezávislých videoher",
-    "excerpt": "Výběr menších her, které dokážou překvapit nápady i zpracováním.",
-    "relatedGameSlugs": [
-      "hollow-knight",
-      "stardew-valley"
-    ],
-    "content": [
-      {
-        "heading": "Proč dát šanci indie hrám",
-        "paragraphs": [
-          "Nezávislé hry často experimentují s herními mechanismy a vyprávěním.",
-          "I menší projekt může nabídnout nezapomenutelný zážitek."
-        ]
-      }
-    ]
+    "date": "2026-11-20",
+    "readTime": 8
+  },
+  {
+    "slug": "nejlepsi-akcni-hry",
+    "title": "5 akčních her, které by ti neměly uniknout",
+    "excerpt": "Od zběsilých přestřelek po souboje s obřími protivníky. Vybrali jsme hry pro fanoušky pořádné akce.",
+    "image": "/images/articles/action-games.jpg",
+    "category": "Výběr redakce",
+    "author": "Redakce LevelUp",
+    "date": "2026-11-18",
+    "readTime": 5
+  },
+  {
+    "slug": "co-ocekavat-od-hades-2",
+    "title": "Hades II: Co dělá pokračování tak návykovým?",
+    "excerpt": "Podíváme se na souboje, mytologii a novinky, které rozšiřují oblíbený roguelike svět.",
+    "image": "/images/articles/hades-2.jpg",
+    "category": "Preview",
+    "author": "Redakce LevelUp",
+    "date": "2026-11-15",
+    "readTime": 6
+  },
+  {
+    "slug": "vyvoj-her-v-cesku",
+    "title": "České hry, které znají hráči po celém světě",
+    "excerpt": "Česká herní tvorba má dlouhou historii. Připomeňme si studia a hry, které zanechaly výraznou stopu.",
+    "image": "/images/articles/czech-games.jpg",
+    "category": "Téma",
+    "author": "Redakce LevelUp",
+    "date": "2026-11-12",
+    "readTime": 7
   }
 ]
