@@ -72,18 +72,13 @@
     "image": "/images/games/silent-hill-2.jpeg"
   },
   {
-    "slug": "ea-sports-fc-25",
-    "title": "EA SPORTS FC 25",
-    "genre": "Sportovní",
-    "rating": 8.2,
-    "description": "Sestav svůj tým, soutěž v různých herních režimech a vyzkoušej nové možnosti fotbalové taktiky.",
-    "image": "/images/games/ea-sports-fc-25.jpeg"
-  },
-  {
     "slug": "ghost-of-tsushima",
     "title": "Ghost of Tsushima",
     "genre": "Akční adventura",
     "rating": 9.3,
+    "year": 2020,
+    "developer": "Sucker Punch Productions",
+    "platforms": ["PlayStation 4", "PlayStation 5", "PC"],
     "description": "Staň se samurajem Jinem Sakaim, braň ostrov Cušima před mongolskou invazí a rozhodni se, co pro tebe znamená čest.",
     "image": "/images/games/ghost-of-tsushima.jpeg"
   },

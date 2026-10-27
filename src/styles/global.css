@@ -1,8 +1,8 @@
-
 @layer reset, tokens, base, components, utilities;
 
 /* 1. RESET */
 @layer reset {
+
   *,
   *::before,
   *::after {
@@ -88,6 +88,7 @@
   }
 
   @media (prefers-reduced-motion: reduce) {
+
     *,
     *::before,
     *::after {
@@ -147,11 +148,9 @@
     border: 1px solid #494064;
     border-radius: var(--radius-lg);
     background:
-      radial-gradient(
-        ellipse at 85% 20%,
+      radial-gradient(ellipse at 85% 20%,
         rgb(139 92 246 / 28%),
-        transparent 45%
-      ),
+        transparent 45%),
       linear-gradient(135deg, #201b31, #171821 65%);
   }
 
@@ -222,8 +221,8 @@
     letter-spacing: -0.04em;
   }
 
-  .section-heading > a,
-  .about-preview > a {
+  .section-heading>a,
+  .about-preview>a {
     color: var(--color-accent-light);
     font-weight: 700;
   }
@@ -249,6 +248,7 @@
     border-color: var(--color-accent);
     transform: translateY(-3px);
   }
+
   /*
   .game-card__visual {
     min-height: 9rem;
@@ -269,7 +269,7 @@
     font-weight: 900;
     letter-spacing: 0.2em;
   }*/
-  
+
   .game-card__visual {
     aspect-ratio: 16 / 9;
     overflow: hidden;
@@ -280,7 +280,7 @@
     width: 100%;
     height: 100%;
     object-fit: contain;
-  } 
+  }
 
   .game-card__content {
     padding: var(--space-4);
@@ -335,7 +335,7 @@
     background: var(--color-surface);
   }
 
-  .about-preview > p:not(.section-heading__eyebrow) {
+  .about-preview>p:not(.section-heading__eyebrow) {
     max-width: 42rem;
     margin-block: var(--space-4);
     color: var(--color-text-muted);
@@ -356,56 +356,100 @@
     font-size: 0.8rem;
   }
 
-.rating-badge {
-  display: inline-flex;
-  align-items: center;
-  gap: var(--space-1);
-  padding: var(--space-1) var(--space-2);
-  border: 1px solid var(--color-border);
-  border-radius: var(--radius-sm);
-  background: var(--color-surface);
-  color: var(--color-accent-light);
-  font-size: 0.875rem;
-  font-weight: 800;
-  font-variant-numeric: tabular-nums;
-}
+  .rating-badge {
+    display: inline-flex;
+    align-items: center;
+    gap: var(--space-1);
+    padding: var(--space-1) var(--space-2);
+    border: 1px solid var(--color-border);
+    border-radius: var(--radius-sm);
+    background: var(--color-surface);
+    color: var(--color-accent-light);
+    font-size: 0.875rem;
+    font-weight: 800;
+    font-variant-numeric: tabular-nums;
+  }
 
-.rating-badge__icon {
-  color: #fbbf24;
-}
+  .rating-badge__icon {
+    color: #fbbf24;
+  }
 
-.rating-badge--default {
-  font-size: 0.875rem;
-}
+  .rating-badge--default {
+    font-size: 0.875rem;
+  }
 
-.rating-badge--large {
-  padding: var(--space-2) var(--space-3);
-  font-size: 1.125rem;
-}
+  .rating-badge--large {
+    padding: var(--space-2) var(--space-3);
+    font-size: 1.125rem;
+  }
 
-.genre-tag {
-  display: inline-flex;
-  align-items: center;
-  width: fit-content;
-  padding: var(--space-1) var(--space-2);
-  border: 1px solid rgb(139 92 246 / 35%);
-  border-radius: 999px;
-  background: rgb(139 92 246 / 12%);
-  color: var(--color-accent-light);
-  font-size: 0.75rem;
-  font-weight: 700;
-}
+  .genre-tag {
+    display: inline-flex;
+    align-items: center;
+    width: fit-content;
+    padding: var(--space-1) var(--space-2);
+    border: 1px solid rgb(139 92 246 / 35%);
+    border-radius: 999px;
+    background: rgb(139 92 246 / 12%);
+    color: var(--color-accent-light);
+    font-size: 0.75rem;
+    font-weight: 700;
+  }
 
-.genre-tag--default {
-  text-transform: none;
-}
+  .genre-tag--default {
+    text-transform: none;
+  }
 
-.genre-tag--featured {
-  background: var(--color-accent);
-  border-color: var(--color-accent);
-  color: #fff;
-}
+  .genre-tag--featured {
+    background: var(--color-accent);
+    border-color: var(--color-accent);
+    color: #fff;
+  }
 
+  .menu-toggle {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 5px;
+
+    width: 44px;
+    height: 44px;
+    padding: 10px;
+
+    background: var(--color-surface);
+    border: 1px solid var(--color-border);
+    border-radius: 0.5rem;
+    cursor: pointer;
+  }
+
+  .menu-toggle span {
+    display: block;
+    width: 100%;
+    height: 3px;
+    background-color: white;
+    border-radius: 2px;
+  }
+
+  .game-detail__info {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.75rem;
+    margin-block: 1.5rem 2rem;
+  }
+
+  .game-detail__info p {
+    padding: 0.75rem 1rem;
+    border: 1px solid var(--color-border);
+    border-radius: 0.5rem;
+    background: var(--color-surface);
+    color: var(--color-text-muted);
+    font-size: 0.9rem;
+  }
+
+  .game-detail__info strong {
+    color: var(--color-text);
+  }
 }
 
 /* 5. POMOCNÉ TŘÍDY */
@@ -426,5 +470,36 @@
 @media (min-width: 64rem) {
   .game-grid {
     grid-template-columns: repeat(3, minmax(0, 1fr));
+  }
+}
+
+
+
+@media (max-width: 767px) {
+  .menu-toggle {
+    display: flex;
+  }
+
+  .main-nav {
+    display: none;
+    flex-basis: 100%;
+    flex-direction: column;
+    gap: 0.5rem;
+  }
+
+  .main-nav.main-nav--open {
+    display: flex;
+  }
+}
+
+@media (min-width: 768px) {
+  .menu-toggle {
+    display: none;
+  }
+
+  .main-nav {
+    display: flex;
+    flex-direction: row;
+    gap: 1.5rem;
   }
 }
