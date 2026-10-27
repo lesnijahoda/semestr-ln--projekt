@@ -46,17 +46,26 @@ const { game } = Astro.props;
           </p>
           <div class="game-detail__info">
             <p>
-              <strong>Rok vydání:</strong>
+              <strong>Rok vydání</strong>
               {game.year}
             </p>
 
             <p>
-              <strong>Vývojář:</strong>
+              <strong>Vývojář</strong>
               {game.developer}
+            </p>
+            <p>
+              <strong>Vydavatel</strong>
+              {game.publisher}
             </p>
 
             <p>
-              <strong>Platformy:</strong>
+              <strong>Režim hraní</strong>
+              {game.gameMode}
+            </p>
+
+            <p>
+              <strong>Platformy</strong>
               {game.platforms.join(", ")}
             </p>
           </div>
