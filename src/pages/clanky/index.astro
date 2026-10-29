@@ -1,57 +1,30 @@
-
 ---
 import MainLayout from "../../layouts/MainLayout.astro";
 import articles from "../../data/articles.json";
+import ArticleCard from "../../components/ArticleCard.astro";
 
 const sortedArticles = [...articles].sort(
-  (a, b) => new Date(b.date).getTime() - new Date(a.date).getTime()
+    (a, b) => new Date(b.date).getTime() - new Date(a.date).getTime(),
 );
 ---
 
 <MainLayout
-  title="Články | LevelUp"
-  description="Recenze, novinky a zajímavosti ze světa videoher."
-  currentPage="articles"
+    title="Články | LevelUp"
+    description="Recenze, novinky a zajímavosti ze světa videoher."
+    currentPage="articles"
 >
-  <main class="articles-page">
-    <header class="articles-page__header">
-      <p class="section-heading__eyebrow">ZE SVĚTA HER</p>
-      <h1>Herní články</h1>
-      <p>
-        Recenze, výběry redakce a zajímavosti, které by žádnému hráči neměly
-        uniknout.
-      </p>
-    </header>
+    <main class="articles-page">
+        <header class="articles-page__header">
+            <p class="section-heading__eyebrow">ZE SVĚTA HER</p>
+            <h1>Herní články</h1>
+            <p>
+                Recenze, výběry redakce a zajímavosti, které by žádnému hráči
+                neměly uniknout.
+            </p>
+        </header>
 
-    <section class="articles-grid" aria-label="Seznam článků">
-      {sortedArticles.map((article) => (
-        <article class="article-card">
-          <a
-            class="article-card__link"
-            href={`/clanky/${article.slug}/`}
-          >
-            <div class="article-card__image-wrapper">
-              <img
-                class="article-card__image"
-                src={article.image}
-                alt=""
-                loading="lazy"
-              />
-            </div>
-
-            <div class="article-card__content">
-              <p class="article-card__category">{article.category}</p>
-              <h2>{article.title}</h2>
-              <p class="article-card__excerpt">{article.excerpt}</p>
-
-              <div class="article-card__meta">
-                <span>{article.author}</span>
-                <span>{article.readTime} min čtení</span>
-              </div>
-            </div>
-          </a>
-        </article>
-      ))}
-    </section>
-  </main>
+        <section class="articles-grid" aria-label="Seznam článků">
+            {sortedArticles.map((article) => <ArticleCard article={article} />)}
+        </section>
+    </main>
 </MainLayout>

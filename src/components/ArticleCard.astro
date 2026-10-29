@@ -1,0 +1,29 @@
+
+---
+
+const { article } = Astro.props;
+---
+
+<article class="article-card">
+  <a class="article-card__link" href={`/clanky/${article.slug}/`}>
+    <div class="article-card__image-wrapper">
+      <img
+        class="article-card__image"
+        src={article.image}
+        alt=""
+        loading="lazy"
+      />
+    </div>
+
+    <div class="article-card__content">
+      <p class="article-card__category">{article.category}</p>
+      <h2>{article.title}</h2>
+      <p class="article-card__excerpt">{article.excerpt}</p>
+
+      <div class="article-card__meta">
+        <span>{article.author}</span>
+        <span>{article.readTime} min čtení</span>
+      </div>
+    </div>
+  </a>
+</article>
