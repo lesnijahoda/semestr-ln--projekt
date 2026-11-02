@@ -8,7 +8,37 @@
     "category": "Recenze",
     "author": "Redakce LevelUp",
     "date": "2026-11-20",
-    "readTime": 8
+    "readTime": 8,
+    "content": [
+      {
+        "heading": "Návrat do středověkých Čech",
+        "paragraphs": [
+          "Kingdom Come: Deliverance II navazuje na příběh Jindřicha ze Skalice. Hráče znovu zavádí do světa inspirovaného skutečnou historií, kde každé rozhodnutí může ovlivnit další vývoj událostí.",
+          "Pokračování rozšiřuje svět prvního dílu a nabízí nové lokace, postavy i příběhové situace. Fanoušci původní hry se mohou těšit na známou atmosféru, ale také na řadu novinek."
+        ]
+      },
+      {
+        "heading": "Souboje a herní systém",
+        "paragraphs": [
+          "Soubojový systém staví na správném načasování, výběru útoků a obraně. Hráč musí přemýšlet nad tím, jakou zbraň použije a jak se postaví jednotlivým protivníkům.",
+          "Důležitou roli hraje také příprava. Vybavení, schopnosti a zkušenosti mohou výrazně ovlivnit průběh soubojů."
+        ]
+      },
+      {
+        "heading": "Živý herní svět",
+        "paragraphs": [
+          "Velkou předností hry je prostředí, které působí uvěřitelně a nabízí spoustu možností k průzkumu. Vedle hlavního příběhu lze objevovat vedlejší úkoly a setkávat se s různými obyvateli.",
+          "Právě vedlejší aktivity pomáhají vytvořit pocit, že hráč není jen součástí příběhu, ale skutečně žije ve světě hry."
+        ]
+      },
+      {
+        "heading": "Závěrečné hodnocení",
+        "paragraphs": [
+          "Kingdom Come: Deliverance II rozvíjí základy prvního dílu a přináší rozsáhlé středověké dobrodružství. Zaujme především hráče, kteří mají rádi příběhová RPG, průzkum a důraz na atmosféru.",
+          "Pokud tě baví pomalejší a propracovanější hry, rozhodně stojí za pozornost."
+        ]
+      }
+    ]
   },
   {
     "slug": "nejlepsi-akcni-hry",
@@ -18,7 +48,58 @@
     "category": "Výběr redakce",
     "author": "Redakce LevelUp",
     "date": "2026-11-18",
-    "readTime": 5
+    "readTime": 5,
+    "content": [
+      {
+        "heading": "Akce, která tě nepustí",
+        "paragraphs": [
+          "Akční hry patří mezi nejoblíbenější herní žánry. Nabízejí rychlé souboje, napínavé situace a spoustu příležitostí, jak si otestovat vlastní schopnosti.",
+          "Vybrali jsme pět zajímavých titulů, které ukazují, jak různorodý může akční žánr být."
+        ]
+      },
+      {
+        "heading": "Doom Eternal",
+        "paragraphs": [
+          "Doom Eternal je ideální volbou pro hráče, kteří hledají rychlou a intenzivní akci. Hlavní hrdina se postaví hordám démonů a musí neustále kombinovat pohyb, střelbu a správné využívání zbraní.",
+          "Hra odměňuje agresivní styl hraní a nedává hráči příliš prostoru k odpočinku."
+        ]
+      },
+      {
+        "heading": "Devil May Cry 5",
+        "paragraphs": [
+          "Devil May Cry 5 nabízí stylové souboje, výrazné postavy a propracovaný systém kombinování útoků. Každá postava má vlastní schopnosti a způsob boje.",
+          "Hlavním cílem není pouze porazit protivníky, ale také předvést co nejpůsobivější kombinace."
+        ]
+      },
+      {
+        "heading": "God of War Ragnarök",
+        "paragraphs": [
+          "God of War Ragnarök kombinuje akční souboje s propracovaným příběhem ze severské mytologie. Hráč se vydává na cestu s Kratem a Atreem, během které potkává známé i nové postavy.",
+          "Kromě soubojů zaujme také atmosférou, prostředím a emocionálním příběhem."
+        ]
+      },
+      {
+        "heading": "Sekiro: Shadows Die Twice",
+        "paragraphs": [
+          "Sekiro je náročnější akční hra, která vyžaduje přesnost a trpělivost. Důležitou součástí soubojů je odrážení útoků a hledání správného okamžiku pro protiútok.",
+          "Každé vítězství přináší velký pocit uspokojení, protože hráč musí skutečně pochopit chování svých protivníků."
+        ]
+      },
+      {
+        "heading": "Grand Theft Auto V",
+        "paragraphs": [
+          "Grand Theft Auto V nabízí otevřený svět plný možností, akčních misí a různorodých aktivit. Hráč může sledovat příběh tří hlavních postav nebo se volně pohybovat po městě Los Santos.",
+          "Díky velké svobodě a množství obsahu jde o titul, ke kterému se hráči mohou opakovaně vracet."
+        ]
+      },
+      {
+        "heading": "Kterou hru si vybrat?",
+        "paragraphs": [
+          "Každá z uvedených her nabízí trochu jiný zážitek. Pokud chceš rychlou akci, vyzkoušej Doom Eternal. Jestli dáváš přednost příběhu, může tě zaujmout God of War Ragnarök.",
+          "Nejlepší volba závisí především na tom, jaký styl hraní tě baví."
+        ]
+      }
+    ]
   },
   {
     "slug": "co-ocekavat-od-hades-2",
@@ -28,7 +109,44 @@
     "category": "Preview",
     "author": "Redakce LevelUp",
     "date": "2026-11-15",
-    "readTime": 6
+    "readTime": 6,
+    "content": [
+      {
+        "heading": "Nová hrdinka a nový příběh",
+        "paragraphs": [
+          "Hades II navazuje na úspěch prvního dílu, ale do hlavní role staví Melinoë. Ta se vydává na nebezpečnou cestu, během které musí čelit mocným protivníkům a odhalovat další části řecké mytologie.",
+          "Nová hlavní postava přináší odlišný styl hraní a nové možnosti při prozkoumávání herního světa."
+        ]
+      },
+      {
+        "heading": "Roguelike, který motivuje k dalším pokusům",
+        "paragraphs": [
+          "Základem hry jsou opakované výpravy, během kterých hráč získává nové schopnosti a postupně se učí lépe zvládat jednotlivé protivníky.",
+          "Každý pokus může být trochu jiný. Kombinace schopností a získaných vylepšení vytváří nové možnosti, jak překonávat překážky."
+        ]
+      },
+      {
+        "heading": "Soubojový systém a magie",
+        "paragraphs": [
+          "Melinoë využívá nejen klasické útoky, ale také magické schopnosti. Díky tomu mohou být souboje takticky zajímavější a vyžadují přemýšlení nad správným využitím energie.",
+          "Důležitá je také spolupráce jednotlivých schopností. Správná kombinace může výrazně usnadnit souboje s náročnějšími protivníky."
+        ]
+      },
+      {
+        "heading": "Výtvarné zpracování a hudba",
+        "paragraphs": [
+          "Jedním z poznávacích znaků série je výrazný výtvarný styl. Ručně působící ilustrace, animace a charakteristický design postav pomáhají vytvářet nezaměnitelnou atmosféru.",
+          "Hudební doprovod navíc podporuje tempo soubojů i příběhové momenty."
+        ]
+      },
+      {
+        "heading": "Proč Hades II vyzkoušet?",
+        "paragraphs": [
+          "Hades II nabízí kombinaci rychlé akce, zajímavého příběhu a postupného zlepšování schopností. Každá výprava přináší nové zkušenosti a motivuje hráče zkusit to znovu.",
+          "Pokud tě baví roguelike hry, řecká mytologie a propracovaný soubojový systém, tento titul by neměl uniknout tvé pozornosti."
+        ]
+      }
+    ]
   },
   {
     "slug": "vyvoj-her-v-cesku",
@@ -38,6 +156,231 @@
     "category": "Téma",
     "author": "Redakce LevelUp",
     "date": "2026-11-12",
-    "readTime": 7
+    "readTime": 7,
+    "content": [
+      {
+        "heading": "Česká herní tvorba má dlouhou tradici",
+        "paragraphs": [
+          "Česká republika má na herní mapě světa výrazné místo. Domácí vývojáři vytvořili řadu titulů, které si získaly fanoušky nejen u nás, ale také v zahraničí.",
+          "Česká herní scéna je zajímavá svou rozmanitostí. Najdeme zde realistická RPG, strategické hry, simulátory i nezávislé projekty."
+        ]
+      },
+      {
+        "heading": "Warhorse Studios a Kingdom Come",
+        "paragraphs": [
+          "Jedním z nejznámějších českých studií je Warhorse Studios. Do povědomí hráčů se dostalo především díky sérii Kingdom Come: Deliverance.",
+          "Studio se zaměřuje na historicky inspirovaná RPG, která kladou důraz na uvěřitelné prostředí, příběh a propracované herní systémy."
+        ]
+      },
+      {
+        "heading": "Bohemia Interactive a vojenské simulace",
+        "paragraphs": [
+          "Bohemia Interactive je známé především díky sérii Arma. Ta nabízí rozsáhlé vojenské simulace, ve kterých hraje důležitou roli taktika, spolupráce a realistické zpracování.",
+          "Studio se podílelo také na dalších projektech, například na survival hře DayZ."
+        ]
+      },
+      {
+        "heading": "Další známá česká studia",
+        "paragraphs": [
+          "Mezi další výrazné české vývojáře patří například Amanita Design, které se proslavilo originálními adventurami jako Machinarium nebo Samorost.",
+          "Pozornost si zaslouží také tvůrci her jako Euro Truck Simulator 2 od studia SCS Software. Jejich simulátory si získaly velkou mezinárodní komunitu."
+        ]
+      },
+      {
+        "heading": "Budoucnost českého herního průmyslu",
+        "paragraphs": [
+          "Český herní průmysl se neustále rozvíjí a vedle zavedených studií vznikají také menší nezávislé týmy. Ty často přicházejí s originálními nápady a experimentují s novými žánry.",
+          "Díky zkušenostem vývojářů a rostoucímu zájmu o herní tvorbu má česká scéna dobré předpoklady pro další zajímavé projekty."
+        ]
+      }
+    ]
+  },
+  {
+    "slug": "jak-vybrat-herni-notebook",
+    "title": "Jak vybrat herní notebook: Na co se zaměřit",
+    "category": "Průvodce",
+    "author": "Redakce LevelUp",
+    "date": "2026-11-01",
+    "readTime": 6,
+    "image": "/images/articles/herni-notebook.jpeg",
+    "excerpt": "Výběr herního notebooku nemusí být složitý. Vysvětlíme, které parametry mají největší vliv na výkon, obraz i pohodlí při hraní.",
+    "content": [
+      {
+        "heading": "Grafická karta a procesor",
+        "paragraphs": [
+          "Při výběru herního notebooku je důležité sledovat především grafickou kartu a procesor. Grafická karta ovlivňuje vykreslování obrazu a výkon ve hrách, zatímco procesor se stará o výpočty a další úlohy.",
+          "Ne vždy platí, že nejdražší model je nejlepší volbou. Důležité je vybrat hardware podle her, které chceš hrát, a podle rozpočtu."
+        ]
+      },
+      {
+        "heading": "Operační paměť a úložiště",
+        "paragraphs": [
+          "Operační paměť neboli RAM pomáhá počítači zvládat více úloh současně. U moderních her je vhodné sledovat nejen její kapacitu, ale také možnosti případného rozšíření.",
+          "SSD disk zase ovlivňuje rychlost spouštění systému, programů a načítání her. Větší kapacita se hodí zejména tehdy, pokud plánuješ instalovat více velkých her."
+        ]
+      },
+      {
+        "heading": "Displej a chlazení",
+        "paragraphs": [
+          "Důležitou součástí notebooku je displej. Zaměř se na rozlišení, obnovovací frekvenci, jas a kvalitu barev. Pro rychlé akční hry může být výhodná vyšší obnovovací frekvence.",
+          "Při hraní vzniká hodně tepla, proto je důležité také kvalitní chlazení. Dobře navržené chlazení pomáhá udržet stabilní výkon."
+        ]
+      },
+      {
+        "heading": "Výdrž baterie a pohodlí",
+        "paragraphs": [
+          "Herní notebooky obvykle dosahují nejlepšího výkonu při připojení k napájení. Výdrž baterie proto nemusí být jejich nejsilnější stránkou.",
+          "Před nákupem se vyplatí vyzkoušet klávesnici, touchpad a zkontrolovat hmotnost zařízení. Notebook by měl být pohodlný i při každodenním používání."
+        ]
+      },
+      {
+        "heading": "Jak vybrat správně?",
+        "paragraphs": [
+          "Nejdříve si stanov rozpočet a ujasni si, jaké hry chceš hrát. Potom porovnej grafickou kartu, procesor, paměť, displej a chlazení.",
+          "Dobrý herní notebook nemusí být nejdražší na trhu. Nejdůležitější je vyvážená kombinace parametrů, která odpovídá tvým potřebám."
+        ]
+      }
+    ]
+  },
+  {
+    "slug": "proc-jsou-indie-hry-zajimave",
+    "title": "Proč stojí za to dát šanci indie hrám",
+    "category": "Téma",
+    "author": "Redakce LevelUp",
+    "date": "2026-10-29",
+    "readTime": 5,
+    "image": "/images/articles/indie-games.jpeg",
+    "excerpt": "Nezávislé hry často přicházejí s odvážnými nápady a neobvyklým zpracováním. Podíváme se, čím dokážou překvapit i vedle velkých titulů.",
+    "content": [
+      {
+        "heading": "Co jsou indie hry?",
+        "paragraphs": [
+          "Indie hry jsou tituly vytvářené nezávislými vývojáři nebo menšími studii. Často vznikají bez podpory velkých vydavatelů a mají menší rozpočty než největší herní produkce.",
+          "To ale neznamená, že musí být méně zajímavé. Právě menší týmy někdy přicházejí s nápady, které by se ve velkých projektech prosazovaly obtížně."
+        ]
+      },
+      {
+        "heading": "Originalita a nové nápady",
+        "paragraphs": [
+          "Nezávislí vývojáři mají často větší prostor experimentovat s herními mechanismy, výtvarným stylem nebo způsobem vyprávění příběhu.",
+          "Mezi známé příklady patří Stardew Valley, Celeste nebo Hollow Knight. Každá z těchto her ukazuje, že silný nápad může být důležitější než obrovský rozpočet."
+        ]
+      },
+      {
+        "heading": "Osobitý výtvarný styl",
+        "paragraphs": [
+          "Mnoho indie her se nesnaží napodobovat realistickou grafiku velkých studií. Místo toho používají pixel art, ručně kreslené prostředí nebo jednoduché geometrické tvary.",
+          "Díky tomu mohou mít velmi osobitou atmosféru a snadno zapamatovatelný vzhled."
+        ]
+      },
+      {
+        "heading": "Menší hry, velké zážitky",
+        "paragraphs": [
+          "Nezávislé hry dokážou nabídnout silné příběhy, náročné souboje i dlouhé hodiny zábavy. Některé se soustředí na jedinou originální mechaniku a rozvíjejí ji do velké hloubky.",
+          "Často také přinášejí zajímavá témata a emoce, na která ve velkých komerčních hrách nezbývá tolik prostoru."
+        ]
+      },
+      {
+        "heading": "Proč jim dát šanci?",
+        "paragraphs": [
+          "Pokud máš pocit, že velké hry začínají být podobné, indie tvorba může nabídnout příjemnou změnu. Najdeš v ní neobvyklé světy, nové nápady a originální herní zážitky.",
+          "Nemusíš začínat ničím složitým. Stačí si vybrat žánr, který tě baví, a vyzkoušet některý z menších titulů."
+        ]
+      }
+    ]
+  },
+  {
+    "slug": "vyvoj-herni-grafiky",
+    "title": "Od pixelů k realistickým světům: Vývoj herní grafiky",
+    "category": "Historie",
+    "author": "Redakce LevelUp",
+    "date": "2026-10-26",
+    "readTime": 7,
+    "image": "/images/articles/herni-grafika.jpeg",
+    "excerpt": "Herní grafika ušla dlouhou cestu od jednoduchých pixelů až po detailní 3D světy. Připomeňme si hlavní milníky jejího vývoje.",
+    "content": [
+      {
+        "heading": "Začátky herní grafiky",
+        "paragraphs": [
+          "První videohry pracovaly s velmi jednoduchou grafikou. Omezený výkon tehdejších zařízení umožňoval zobrazovat jen několik barev a základní tvary.",
+          "I přes tato omezení vznikaly hry, které dokázaly hráče zaujmout jednoduchými, ale nápaditými mechanismy."
+        ]
+      },
+      {
+        "heading": "Zlatá éra pixel artu",
+        "paragraphs": [
+          "S rozvojem herních konzolí a domácích počítačů se začaly objevovat barevnější světy a detailnější postavy. Pixel art se stal jedním z nejvýraznějších stylů herní historie.",
+          "Mnoho moderních nezávislých her se k tomuto stylu vrací a využívá ho jako záměrnou výtvarnou volbu."
+        ]
+      },
+      {
+        "heading": "Přechod do tří rozměrů",
+        "paragraphs": [
+          "Významným krokem byl přechod od dvourozměrné grafiky ke 3D prostředí. Hráči mohli prozkoumávat prostor z různých úhlů a herní světy začaly působit mnohem prostorověji.",
+          "Vývoj 3D grafiky postupně přinesl detailnější modely, propracovanější animace a realističtější prostředí."
+        ]
+      },
+      {
+        "heading": "Moderní technologie",
+        "paragraphs": [
+          "Současné hry využívají pokročilé techniky osvětlení, stínování a vykreslování materiálů. Díky tomu mohou prostředí působit velmi realisticky.",
+          "Technologie jako ray tracing umožňují věrněji simulovat odrazy a světelné efekty. Výkon moderního hardwaru ale stále hraje důležitou roli."
+        ]
+      },
+      {
+        "heading": "Záleží pouze na realismu?",
+        "paragraphs": [
+          "Ne každá hra potřebuje realistickou grafiku. Výrazný výtvarný styl může být stejně působivý a často také lépe odpovídá atmosféře konkrétního titulu.",
+          "Důležitější než samotný počet detailů je to, jak grafika podporuje herní zážitek a pomáhá vytvářet jedinečný svět."
+        ]
+      }
+    ]
+  },
+  {
+    "slug": "jak-zacit-s-hrou-na-hrani",
+    "title": "Jak začít s hraním: Průvodce pro nové hráče",
+    "category": "Průvodce",
+    "author": "Redakce LevelUp",
+    "date": "2026-10-23",
+    "readTime": 4,
+    "image": "/images/articles/zacatecnik.jpeg",
+    "excerpt": "Chceš začít hrát, ale nevíš, kterou hru vybrat? Poradíme, jak najít žánr, který tě bude bavit, a jak se do hraní pustit bez zbytečného stresu.",
+    "content": [
+      {
+        "heading": "Najdi žánr, který tě baví",
+        "paragraphs": [
+          "Herní svět nabízí spoustu různých žánrů. Můžeš si vybrat akční hry, závodní simulátory, strategie, RPG nebo klidnější adventury.",
+          "Pokud nevíš, kde začít, zkus si vzpomenout na filmy, knihy nebo jiné aktivity, které tě baví. Podle toho můžeš snadněji najít hry, které ti budou vyhovovat."
+        ]
+      },
+      {
+        "heading": "Vyzkoušej jednodušší hry",
+        "paragraphs": [
+          "Na začátku není nutné pouštět se do nejtěžších her. Vyber si titul s přehledným ovládáním a postupným seznamováním s herními mechanismy.",
+          "Mnoho her nabízí úrovně obtížnosti nebo tutoriály, které pomáhají novým hráčům zorientovat se."
+        ]
+      },
+      {
+        "heading": "Vyber si platformu",
+        "paragraphs": [
+          "Hrát můžeš na počítači, konzoli nebo mobilním telefonu. Každá platforma má své výhody a nabízí jiný způsob ovládání.",
+          "Při výběru zvaž nejen cenu zařízení, ale také nabídku her, které chceš hrát."
+        ]
+      },
+      {
+        "heading": "Neboj se dělat chyby",
+        "paragraphs": [
+          "Prohra nebo neúspěšný pokus jsou běžnou součástí hraní. Postupně se naučíš ovládání, pochopíš pravidla a začneš zvládat náročnější situace.",
+          "Nemusíš být nejlepší hráč. Nejdůležitější je, aby tě hraní bavilo."
+        ]
+      },
+      {
+        "heading": "Hraj s rozumem",
+        "paragraphs": [
+          "Hraní může být skvělým koníčkem, ale je dobré myslet také na odpočinek a další aktivity. Pravidelné přestávky pomáhají očím i soustředění.",
+          "Najdi si vlastní tempo a vybírej hry, ve kterých se cítíš dobře."
+        ]
+      }
+    ]
   }
 ]

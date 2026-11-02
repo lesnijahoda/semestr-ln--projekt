@@ -1,4 +1,3 @@
-
 ---
 import MainLayout from "../../layouts/MainLayout.astro";
 import articles from "../../data/articles.json";
@@ -19,9 +18,6 @@ const { article } = Astro.props;
   currentPage="articles"
 >
   <main class="article-detail">
-     <a class="article-detail__back" href="/clanky/">
-          ← Zpět na články
-        </a>
     <section class="article-hero">
       <img
         class="article-hero__image"
@@ -29,10 +25,8 @@ const { article } = Astro.props;
         alt=""
         fetchpriority="high"
       />
-     
-      <div class="article-hero__overlay">
-        
 
+      <div class="article-hero__overlay">
         <header class="article-detail__header">
           <p class="section-heading__eyebrow">{article.category}</p>
           <h1>{article.title}</h1>
@@ -48,14 +42,19 @@ const { article } = Astro.props;
     </section>
 
     <article class="article-detail__body">
-      <p>{article.excerpt}</p>
+      {
+        article.content.map((section) => (
+          <section>
+            <h2>{section.heading}</h2>
 
-      <h2>Co bys měl vědět</h2>
-      <p>
-        V tomto článku se věnujeme hře a jejím zajímavostem.
-        LevelUp přináší přehledné informace ze světa videoher
-        pro všechny herní fanoušky.
-      </p>
+            {section.paragraphs.map((paragraph) => (
+              <p>{paragraph}</p>
+            ))}
+          </section>
+        ))
+      }
+
+      <a class="article-detail__back" href="/clanky/"> ← Zpět na články </a>
     </article>
   </main>
 </MainLayout>
