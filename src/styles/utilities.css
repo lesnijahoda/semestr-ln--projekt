@@ -1,0 +1,6 @@
+/* 5. POMOCNÉ TŘÍDY */
+@layer utilities {
+  .text-muted {
+    color: var(--color-text-muted);
+  }
+}
